@@ -10,7 +10,7 @@ class Task:
         self.time_created = datetime.datetime.now()
         self.deadline = deadline
     
-    def __repr__(self):
+    def __str__(self):
         return f'''{self.name}: Priority ({self.priority})\n{self.desc}\nDeadline: {self.deadline}\nCompleted: {self.is_done}'''
     
     def toggle_complete(self):
