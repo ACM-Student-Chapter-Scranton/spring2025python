@@ -1,3 +1,0 @@
-name,desc,priority,deadline,is_done
-Saving Deadline,test including writing daedline to csv,3,2002-04-10 00:00:00,True
-Another task,default time this time,3,9999-12-31 23:59:59.999999,False
